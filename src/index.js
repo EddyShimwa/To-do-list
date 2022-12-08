@@ -1,26 +1,28 @@
-import './styles.css';
-import EnterIcon from './Assets/enter.png';
-import threeDotIcon from './Assets/three-dots.png';
+import addData from "../modules/addData.js";
+import todoTasks from "../modules/todoTasks.js";
+import markAs from "../modules/markAs.js";
+
+const todoform = document.getElementById("EnterButton");
+const todoInput = document.getElementById("newtodo");
+const todoList = document.querySelector("#todos-list");
+
+todoform.addEventListener('click', (event) => {
+  event.preventDefault();
+  console.log("submit");
+  let newTask = {
+    description: todoInput.value,
+    completed: false,
+    index: todoTasks.length,
+  }
+  todoTasks.push(newTask);
+  addData(todoList, newTask, todoTasks)
+});
 
 
-class Todos {
-    constructor() {
-      this.task = [
-        {
-          description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
-          completed: false,
-          index: 0,
-        },
-        {
-          description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
-          completed: false,
-          index: 1,
-        },
-        {
-          description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
-          completed: false,
-          index: 2,
-        },
-      ];
-    }
+for (let i = 0; i < todoTasks.length; i++) {
+  addData(todoList, todoTasks[i], todoTasks, i);
+
+
 }
+
+
