@@ -1,7 +1,7 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
 html,
@@ -23,53 +23,40 @@ body {
 }
 
 .container {
-  background: #470255;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  color: rgb(24, 33, 161);
+  background: #3c4abf;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
 }
 
-.todo-section {
+.title-section {
+  margin: 20px 0;
   gap: 15px;
   width: 100%;
-  margin: 20px 0;
+  max-width: 800px;
   display: flex;
-  max-width: 500px;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   border: 1px solid #fff;
-  border-radius: 15px 15px 0 0;
   box-shadow: 0 5px 10px #1e0129;
-  animation: slide-in 0.3s ease-in-out;
 }
 
-@keyframes slide-in {
-  0% {
-    transform: translateY(-200%);
-    opacity: 0.5;
-  }
-
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
-
-.todo-title {
+.title {
   margin: 15px;
   font-size: 1.7rem;
+  color: rgb(141, 141, 255);
 }
 
-.todo-title::after {
+.title::after {
   content: '';
   width: 50px;
   display: block;
   margin: 10px auto;
-  border-bottom: 2px solid #470255;
+  border-bottom: 2px solid #21318e;
 }
 
 #todo-form {
@@ -79,13 +66,13 @@ body {
 }
 
 .input-group {
+  border: 1px solid transparent;
   min-width: 100%;
   padding: 12px 15px;
-  border: 1px solid transparent;
 }
 
 .input-group:focus-visible {
-  outline-color: #a60ae4;
+  outline-color: #0a36e4;
 }
 
 .btn-submit {
@@ -120,7 +107,7 @@ body {
 }
 
 .todo-item:nth-child(odd) {
-  background: #7a0492;
+  background: #1928af;
 }
 
 .todo-completed {
@@ -130,6 +117,7 @@ body {
 
 .todo-des {
   flex: 1;
+  color: rgb(255, 255, 255);
 }
 
 .btn-three-dot {
@@ -142,7 +130,7 @@ body {
   width: 100%;
   padding: 15px 15px;
   text-align: center;
-  color: #a60ae4;
+  color: #023372;
   font-weight: bold;
   margin-top: 10px;
   border: none;
@@ -155,16 +143,16 @@ body {
 
 .no-item {
   text-align: center;
-  color: #a2ad06;
+  color: #34c1c8;
 }
 
-.show-msg {
+.display-message {
   display: none;
 }
 
 .form-error {
   display: block;
-  color: #f55;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 

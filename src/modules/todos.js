@@ -1,7 +1,5 @@
 import validateForm from './utils.js';
 import { todoContainer, formInput, showMsg } from './domSelector.js';
-
-// Import necessary assets form source
 import threeDotIcon from '../assets/three-dot-24.png';
 import deleteIcon from '../assets/trash-24.png';
 
@@ -26,7 +24,6 @@ export default class Todos {
       return 0;
     });
 
-    // rearrange the index
     let index = 0;
     todoArr.forEach((todo) => {
       index += 1;
@@ -37,7 +34,6 @@ export default class Todos {
     localStorage.setItem('todos', JSON.stringify(this.todos));
   }
 
-  // Render todo list
   render = () => {
     todoContainer.innerHTML = '';
     showMsg.innerText = '';
@@ -45,12 +41,9 @@ export default class Todos {
     this.sortAndSave();
     if (this.todos.length > 0) {
       this.todos.forEach((todo) => {
-      // create todo item
         const todoItem = document.createElement('li');
         todoItem.id = todo.index;
         todoItem.className = 'todo-item';
-
-        // todo checkbox
         const checkbox = document.createElement('input');
         checkbox.setAttribute('type', 'checkbox');
         checkbox.id = 'todo-compleate';
@@ -60,7 +53,6 @@ export default class Todos {
         todoDes.className = 'todo-des';
         todoDes.innerText = todo.description;
 
-        // Add event listner in todo Description
         todoDes.addEventListener('click', (e) => {
           this.onClickTodoDes(e);
         });
@@ -77,7 +69,7 @@ export default class Todos {
         todoContainer.appendChild(todoItem);
       });
     } else {
-      todoContainer.innerHTML = '<p class="no-item">There is no todo to show! Please add a new one.</p>';
+      todoContainer.innerHTML = '<p class="no-item">Your to list is empty! add tasks</p>';
     }
   }
 
@@ -149,11 +141,8 @@ export default class Todos {
 
   // onClickDes enent method
   onClickTodoDes = (e) => {
-    // target.outerHTML = document.createElement('textarea');
     const parent = e.target.parentElement;
     parent.innerHTML = '';
-
-    // todo checkbox
     const checkbox = document.createElement('input');
     checkbox.setAttribute('type', 'checkbox');
     checkbox.id = 'todo-compleate';
