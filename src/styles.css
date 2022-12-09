@@ -22,7 +22,7 @@ body {
 
 .container {
   background-color: rgb(70, 70, 207);
-  width: var(--contaier-width);
+  width: 700px;
   height: var(--container-height);
   border: 2px solid rgb(95, 98, 202);
   box-shadow: 5px 10px 18px #9282fb;
@@ -72,6 +72,10 @@ body {
   border: none;
   border-left: 0;
   cursor: pointer;
+}
+
+.bi {
+  color: rgb(21, 16, 168);
 }
 
 .new-todo button:hover {

@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable no-undef */
 const markAs = (checkBox, taskName, todoTask) => {
   // todoTasks[i].completed = !todoTasks[i].completed;
 
@@ -11,11 +13,9 @@ const markAs = (checkBox, taskName, todoTask) => {
     taskName.classList.remove('checked');
   }
 };
-
 const markAsCompleted = document.querySelector('.markAsCompleted');
 markAsCompleted.addEventListener('click', () => {
-  console.log('imahsa');
-  for (let i = 0; i < todoTasks.length; i++) {
+  for (let i = 0; i < todoTasks.length; i += 1) {
     markAs(checkBox, taskName, todoTask);
   }
 });
