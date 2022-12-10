@@ -1,23 +1,33 @@
-/* eslint-disable linebreak-style */
-import addData from '../modules/addData.js';
-import todoTasks from '../modules/todoTasks.js';
-// import markAs from '../modules/markAs.js';
-import './styles.css';
+import './style.css';
+import Todos from './modules/todos.js';
+import {
+  formInput, btnSubmit, showMsg,
+} from './modules/domSelector.js';
 
-const todoform = document.getElementById('EnterButton');
-const todoInput = document.getElementById('newtodo');
-const todoList = document.querySelector('#todos-list');
-todoform.addEventListener('click', (event) => {
-  event.preventDefault();
-  const newTask = {
-    description: todoInput.value,
-    completed: false,
-    index: todoTasks.length,
-  };
-  todoTasks.push(newTask);
-  addData(todoList, newTask, todoTasks);
+import enterIcon from './assets/enter-24.png';
+
+const todos = new Todos();
+
+formInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    todos.onSubmit();
+  } else {
+    showMsg.innerHTML = '';
+    showMsg.classList.remove('form-error');
+    formInput.classList.remove('invalid');
+  }
 });
 
-for (let i = 0; i < todoTasks.length; i += 1) {
-  addData(todoList, todoTasks[i], todoTasks, i += 1);
-}
+btnSubmit.addEventListener('click', (e) => {
+  e.preventDefault();
+  todos.onSubmit();
+  formInput.value = '';
+});
+
+window.onload = () => {
+  todos.render();
+  document.querySelector('.btn-submit').innerHTML = `<img src='${enterIcon}' alt='submit'/>`;
+};
+
+
