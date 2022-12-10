@@ -1,3 +1,5 @@
+# To-do-list
+The app which displays the list of tasks
 <a name="readme-top"></a>
 
 
@@ -40,15 +42,16 @@
 >HTML
 >Javascript
 >CSS
+>Bootstrap
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-<img src="screenshot app.png" alt="logo" width="500px"  height="auto" />
+<img src="screenshot.png" alt="logo" width="500px"  height="auto" />
 
 > Describe between 1-3 key features of the application.
 
-- ES6
+- I used modern ES6
 - Reliable
 - Very Modern app
 
@@ -109,6 +112,7 @@ Nothing required to install.
 - I will add the add and remove options
 - I will use OOPS
 - Modern Style Design
+- I will add the images as the backgrounds
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

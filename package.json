@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raihan2bd/To-do-list.git"
+    "url": "git+https://github.com/EddyShimwa/To-do-List.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EddyShimwa/To-do-list/issues"
+    "url": "https://github.com/EddyShimwa/To-do-List/issues"
   },
-  "homepage": "https://github.com/EddyShimwa/To-do-list#readme",
+  "homepage": "https://github.com/EddyShimwa/To-do-List#readme",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
