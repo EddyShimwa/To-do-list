@@ -29,3 +29,5 @@ window.onload = () => {
   todos.render();
   document.querySelector('.btn-submit').innerHTML = `<img src='${enterIcon}' alt='submit'/>`;
 };
+
+

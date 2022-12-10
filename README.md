@@ -40,16 +40,20 @@
 >HTML
 >Javascript
 >CSS
+
 >Bootstrap
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-<img src="screenshot.png" alt="logo" width="500px"  height="auto" />
+
+<img src="screenshot app.png" alt="logo" width="500px"  height="auto" />
 
 > Describe between 1-3 key features of the application.
 
-- I used modern ES6
+- ES6
+
 - Reliable
 - Very Modern app
 
@@ -111,6 +115,7 @@ Nothing required to install.
 - I will use OOPS
 - Modern Style Design
 - I will add the images as the backgrounds
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
