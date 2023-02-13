@@ -104,7 +104,7 @@ body {
 }
 
 /* Todo Items styles start from here */
-.todo-items-gropu {
+.group-todo-items {
   list-style: none;
   min-width: 100%;
 }

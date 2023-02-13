@@ -140,7 +140,6 @@ Contributions, issues, and feature requests are welcome!
 
 - Google
 - Stackoverflow
-- God
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

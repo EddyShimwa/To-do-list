@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "to-do-list",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raihan2bd/Todo-List.git"
+    "url": "git+https://github.com/EddyShimwa/To-do-List.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/raihan2bd/Todo-List/issues"
+    "url": "https://github.com/EddyShimwa/To-do-List/issues"
   },
-  "homepage": "https://github.com/raihan2bd/Todo-List#readme",
+  "homepage": "https://github.com/EddyShimwa/To-do-List#readme",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",

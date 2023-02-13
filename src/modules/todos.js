@@ -1,9 +1,8 @@
 import { validateForm } from './utils.js';
 import { todoContainer, formInput, showMsg } from './domSelector.js';
 
-// Import necessary assets form source
-import threeDotIcon from '../assets/three-dot-24.png';
-import deleteIcon from '../assets/trash-24.png';
+import threeDotIcon from '../Assets/three-dot-24.png';
+import deleteIcon from '../Assets/trash-24.png';
 
 export default class Todos {
   constructor() {
@@ -96,7 +95,7 @@ export default class Todos {
         todoContainer.appendChild(todoItem);
       });
     } else {
-      todoContainer.innerHTML = '<p class="no-item">Your to do list is empty! Please add some!.</p>';
+      todoContainer.innerHTML = '<p class="no-item">There is no todo to show! Please add a new one.</p>';
     }
   }
 

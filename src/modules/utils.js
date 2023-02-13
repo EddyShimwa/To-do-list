@@ -9,7 +9,7 @@ export const validateForm = (
   if (required) {
     if (str.length <= 0) {
       isError = true;
-      msg = 'This is a required field!';
+      msg = 'This field is Required!';
       return { isError, msg };
     }
   }
@@ -17,7 +17,7 @@ export const validateForm = (
   if (minLength > 0) {
     if (len < minLength) {
       isError = true;
-      msg = `The minimum number of characters to enter as todo is ${minLength}`;
+      msg = `The min character length of this field is ${minLength}`;
       return { isError, msg };
     }
   }
@@ -25,7 +25,7 @@ export const validateForm = (
   if (maxLength > 0) {
     if (len > maxLength) {
       isError = true;
-      msg = `The bare minimum of characters required for todo entry is ${maxLength}`;
+      msg = `The max character length of this field is ${maxLength}`;
       return { isError, msg };
     }
   }
@@ -35,7 +35,7 @@ export const validateForm = (
     const re = /^[A-Za-z][A-Za-z0-9-_.]*$/;
     if (!re.test(newStr)) {
       isError = true;
-      msg = 'This field only accepts A-z0-9_.- characters and the first character should be A to z';
+      msg = 'This field is only allow A-z0-9_.- characters and also first character should be A-z';
       return { isError, msg };
     }
   }

@@ -5,7 +5,7 @@ import {
 } from './modules/domSelector.js';
 
 // Import necessary assets form source
-import enterIcon from './assets/enter-24.png';
+import enterIcon from './Assets/enter-24.png';
 import { getAfterElement } from './modules/utils.js';
 
 // Initialize the todos
