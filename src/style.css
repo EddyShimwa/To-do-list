@@ -24,7 +24,7 @@ body {
 
 /* Todo Section start from here */
 .container {
-  background: #3e75f6;
+  background: #26365c;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,7 @@ body {
 }
 
 .todo-section {
+  background-color: hsl(223, 86%, 17%);
   gap: 15px;
   width: 100%;
   animation: slide-in 0.3s ease-in-out;
@@ -43,8 +44,9 @@ body {
   margin: 20px 0;
   max-width: 500px;
   flex-direction: column;
-  border: 1px solid #fff;
-  box-shadow: 0 5px 10px #0752ea;
+  border: 4px solid hsla(0, 0%, 100%, 0.533);
+  box-shadow: 0 5px 10px #293f6d;
+  border-radius: 10px;
 }
 
 .title {
@@ -56,7 +58,7 @@ body {
   width: 50px;
   content: '';
   display: block;
-  border-bottom: 2px solid #470255;
+  border-bottom: 2px solid #5367db;
   margin: 10px auto;
 }
 
@@ -103,7 +105,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* Todo Items styles start from here */
 .group-todo-items {
   list-style: none;
   min-width: 100%;
@@ -119,12 +120,12 @@ body {
 }
 
 .todo-item:nth-child(odd) {
-  background: #1144d0;
+  background: #213775;
 }
 
 .todo-completed {
   text-decoration: line-through;
-  color: #de8cff;
+  color: #2d336d;
 }
 
 #todo-compleate {
@@ -142,6 +143,7 @@ body {
 }
 
 .btn-clear-all {
+  border-radius: 0 0 5px 5px;
   width: 100%;
   padding: 15px 15px;
   text-align: center;
@@ -153,7 +155,7 @@ body {
 }
 
 .btn-clear-all:active {
-  color: #de8cff;
+  color: #2f2170;
 }
 
 /* Dinamic styles is start from here */
@@ -191,7 +193,7 @@ body {
 }
 
 .btn-delete:active {
-  border-color: #de8cff;
+  border-color: #372fa0;
 }
 
 .invalid-edit {
@@ -200,10 +202,10 @@ body {
 }
 
 .invalid-edit:focus-visible {
-  outline-color: #f55;
+  outline-color: rgb(209, 68, 68);
 }
 
 .todo-compleated {
   text-decoration: line-through;
-  color: #de8cff;
+  color: #a18cff;
 }
