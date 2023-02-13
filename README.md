@@ -54,6 +54,9 @@ The app which displays the list of tasks added by the user! a user can be able t
 - I used modern ES6
 - Reliable
 - Very Modern app
+![image](https://user-images.githubusercontent.com/88631022/218548737-20a4275c-b1ff-4a6f-81a7-65659f332bac.png)
+![image](https://user-images.githubusercontent.com/88631022/218548839-2fe5113a-e39c-4fcc-bb46-3facb7cb542f.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
