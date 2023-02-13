@@ -1,14 +1,14 @@
-# To-do-list
-The app which displays the list of tasks
-<a name="readme-top"></a>
-
-
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="myLogo.PNG" alt="logo" width="200"  height="auto" />
   <br/>
-
 </div>
+
+# To-do-list
+The app which displays the list of tasks added by the user! a user can be able to add or delete todo, and mark some todos as completed!
+
+<a name="readme-top"></a>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -78,16 +78,43 @@ The app which displays the list of tasks
 In order to run this project you need:
 
 - Internet
+- Node.js installed
 - Code Editor or IDE
 - Browser
 
 ### Setup
 
-Clone this repository to your desired folder
+
+> Clone this repository to your desired folder: cd [folder] to navigate and run the below comand to clone the project
+
+```sh
+https://github.com/EddyShimwa/To-do-list.git
+```
 
 ### Install
 
-Nothing required to install.
+Install this project with:
+
+- download npm the packages
+
+```sh
+npm install
+```
+
+To download the dev dependency you have to type this command:
+
+```sh
+npm i --save-dev
+```
+
+### Usage
+
+> To see the project in your local browser first of all, go to project file and navigate the directory on your terminal and type below command:
+
+```sh
+npm start
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,6 +127,8 @@ Nothing required to install.
 👤 Eddy Shimwa
 
 - GitHub: [@EddyShimwa](https://github.com/EddyShimwa)
+- Twitter: [@eddy56388406](https://twitter.com/eddy56388406)
+- LinkedIn: [Pray Eddy SHIMWA](https://www.linkedin.com/in/pray-eddy-shimwa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,11 +137,9 @@ Nothing required to install.
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
-
-- I will add the add and remove options
 - I will use OOPS
 - Modern Style Design
-- I will add the images as the backgrounds
+- I will add the image&icons to describe the todo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +164,7 @@ Contributions, issues, and feature requests are welcome!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank...
-
+- Microverse for the greatest opportunity they provide to learn
 - Google
 - Stackoverflow
 
