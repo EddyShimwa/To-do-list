@@ -44,7 +44,7 @@ body {
   margin: 20px 0;
   max-width: 500px;
   flex-direction: column;
-  border: 4px solid #ffffff88;
+  border: 4px solid hsla(0, 0%, 100%, 0.533);
   box-shadow: 0 5px 10px #293f6d;
   border-radius: 10px;
 }
