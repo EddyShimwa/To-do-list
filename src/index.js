@@ -1,4 +1,4 @@
-import './style.css';
+import '../dist/index.css';
 import Todos from './modules/todos.js';
 import {
   formInput, btnSubmit, showMsg, filterButton, todoContainer,
