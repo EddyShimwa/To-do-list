@@ -68,6 +68,9 @@ The app which displays the list of tasks added by the user! a user can be able t
 
 - [Live Demo Link]()
 
+> ## Project demo
+- [Check out the live video here](https://www.loom.com/share/639799d26fff459c97e0ff8ae6f395e4)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
