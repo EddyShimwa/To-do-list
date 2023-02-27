@@ -66,7 +66,7 @@ The app which displays the list of tasks added by the user! a user can be able t
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://todo-app-c9sw.onrender.com/)
 
 > ## Project demo
 - [Check out the live video here](https://www.loom.com/share/639799d26fff459c97e0ff8ae6f395e4)
