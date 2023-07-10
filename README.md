@@ -40,7 +40,7 @@ The app which displays the list of tasks added by the user! a user can be able t
 ## 🛠 Built With <a name="built-with"></a>
 
 >HTML
->Javascript
+>Vanilla Javascript
 >CSS
 >Bootstrap
 
